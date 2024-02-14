@@ -62,7 +62,7 @@ function MainPage({}: MainPageProps) {
 	};
 
 	const fetchData = () => {
-		fetch('http://localhost:3000/api/gamesData.json')
+		fetch(`${window.location.origin}/api/gamesData.json`)
 			.then((response) => response.json())
 			.then((data) => {
 				setGames(data);
