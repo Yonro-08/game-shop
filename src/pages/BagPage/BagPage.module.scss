@@ -1,0 +1,103 @@
+.container {
+	width: 100%;
+	padding-right: calc(1.5rem * 0.5);
+	padding-left: calc(1.5rem * 0.5);
+	margin-right: auto;
+	margin-left: auto;
+
+	.title {
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: calc(-1 * 0);
+		margin-right: calc(-0.5 * 1.5rem);
+		margin-left: calc(-0.5 * 1.5rem);
+		margin-bottom: 1rem;
+	}
+}
+
+.body {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * 0);
+	margin-right: calc(-0.5 * 1.5rem);
+	margin-left: calc(-0.5 * 1.5rem);
+
+	.table {
+		overflow-x: auto;
+		-webkit-overflow-scrolling: touch;
+		flex-shrink: 0;
+		width: 100%;
+		max-width: 100%;
+		padding-right: calc(1.5rem * 0.5);
+		padding-left: calc(1.5rem * 0.5);
+		margin-top: 0;
+
+		.shopBagTable {
+			margin-top: 50px;
+			color: #ffffff;
+			border-radius: 20px;
+			background: var(--bgColor);
+			box-shadow:
+				-5px -5px 15px rgba(255, 255, 255, 0.1),
+				5px 5px 15px rgba(0, 0, 0, 0.35);
+			vertical-align: middle;
+		}
+	}
+}
+
+.foot {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: 3rem;
+	margin-right: calc(-0.5 * 1.5rem);
+	margin-left: calc(-0.5 * 1.5rem);
+
+	.totalContainer {
+		display: flex;
+		flex: 0 0 auto;
+		flex-wrap: wrap;
+		align-items: center;
+		width: 16.66666667%;
+		margin-top: 0;
+		margin-right: calc(-0.5 * 1.5rem);
+		margin-left: calc(-0.5 * 1.5rem);
+
+		.itemCount {
+			font-size: 1.3rem;
+		}
+	}
+
+	.paymentContainer {
+		display: flex;
+		flex: 0 0 auto;
+		flex-wrap: wrap;
+		justify-content: flex-end;
+		width: 83.33333333%;
+		margin-top: 0;
+		margin-right: calc(-0.5 * 1.5rem);
+		margin-left: calc(-0.5 * 1.5rem);
+
+		.payment {
+			display: inline-flex;
+			align-items: center;
+			gap: 50px;
+			font-size: 1.3rem;
+			color: #ffffff;
+
+			a {
+				display: inline-flex;
+				align-items: center;
+				gap: 10px;
+				padding: 10px 20px;
+				color: #ffffff;
+				text-decoration: none;
+				border-radius: 15px;
+				background: var(--bgColor);
+				box-shadow:
+					-5px -5px 15px rgba(255, 255, 255, 0.1),
+					5px 5px 15px rgba(0, 0, 0, 0.35);
+			}
+		}
+	}
+}

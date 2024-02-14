@@ -1,0 +1,30 @@
+.shopBagItem {
+	margin-bottom: 20px;
+
+	tr {
+		margin-bottom: 20px !important;
+		border-color: inherit;
+		border-style: solid;
+		border-width: 0;
+	}
+
+	td,
+	th {
+		font-size: 1.2rem;
+		color: #ffffff;
+		background: transparent;
+	}
+
+	a {
+		color: #ffffff;
+		font-size: 1.6rem;
+	}
+
+	.img {
+		width: 120px;
+		height: 70px;
+		border-radius: 10px;
+		object-fit: cover;
+		object-position: center;
+	}
+}
